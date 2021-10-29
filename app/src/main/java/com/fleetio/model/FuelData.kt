@@ -1,0 +1,58 @@
+package com.fleetio.model
+
+import com.google.gson.annotations.SerializedName
+
+
+data class FuelData (
+
+    @SerializedName("id") var id : Int,
+    @SerializedName("cost_per_hr") var costPerHr : String,
+    @SerializedName("cost_per_km") var costPerKm : Double,
+    @SerializedName("cost_per_mi") var costPerMi : Double,
+    @SerializedName("date") var date : String,
+    @SerializedName("external_id") var externalId : String,
+    @SerializedName("fuel_type_id") var fuelTypeId : String,
+    @SerializedName("fuel_type_name") var fuelTypeName : String,
+    @SerializedName("kpl") var kpl : Double,
+    @SerializedName("liters") var liters : String,
+    @SerializedName("liters_per_hr") var litersPerHr : String,
+    @SerializedName("lp100k") var lp100k : Double,
+    @SerializedName("mpg_uk") var mpgUk : Double,
+    @SerializedName("mpg_us") var mpgUs : Double,
+    @SerializedName("partial") var partial : Boolean,
+    @SerializedName("personal") var personal : Boolean,
+    @SerializedName("price_per_volume_unit") var pricePerVolumeUnit : String,
+    @SerializedName("raw_transaction_data") var rawTransactionData : String,
+    @SerializedName("reference") var reference : String,
+    @SerializedName("region") var region : String,
+    @SerializedName("reset") var reset : Boolean,
+    @SerializedName("uk_gallons") var ukGallons : String,
+    @SerializedName("uk_gallons_per_hr") var ukGallonsPerHr : String,
+    @SerializedName("us_gallons") var usGallons : String,
+    @SerializedName("us_gallons_per_hr") var usGallonsPerHr : String,
+    @SerializedName("usage_in_hr") var usageInHr : String,
+    @SerializedName("usage_in_km") var usageInKm : String,
+    @SerializedName("usage_in_mi") var usageInMi : String,
+    @SerializedName("vehicle_id") var vehicleId : Int,
+    @SerializedName("vehicle_name") var vehicleName : String,
+    @SerializedName("vendor_id") var vendorId : String,
+    @SerializedName("vendor_name") var vendorName : String,
+    @SerializedName("images_count") var imagesCount : Int,
+    @SerializedName("documents_count") var documentsCount : Int,
+    @SerializedName("comments_count") var commentsCount : Int,
+    @SerializedName("is_sample") var isSample : Boolean,
+    @SerializedName("custom_fields") var customFields : CustomFields,
+    @SerializedName("fuel_economy_for_current_user") var fuelEconomyForCurrentUser : String,
+    @SerializedName("fuel_economy_units_for_current_user") var fuelEconomyUnitsForCurrentUser : String,
+    @SerializedName("total_amount") var totalAmount : Double,
+    @SerializedName("meter_entry") var meterEntry : MeterEntry,
+    @SerializedName("geolocation") var geolocation : Geolocation,
+    @SerializedName("comments") var comments : Any,
+    @SerializedName("map_previews") var mapPreviews : MapPreviews,
+    @SerializedName("created_at") var createdAt : String,
+    @SerializedName("updated_at") var updatedAt : String,
+    @SerializedName("attachment_permissions") var attachmentPermissions : AttachmentPermissions,
+    @SerializedName("documents") var documents : Any,
+    @SerializedName("images") var images : Any
+
+)

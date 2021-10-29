@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fleetio</string>
+    <string name="tab1">Fuel entries</string>
+    <string name="tab2">Map</string>
+
+</resources>
